@@ -10,3 +10,6 @@ Curated lists of all my issues/problems encountered in linux and their solutions
 ## 3. Nuxtjs not hot reloading
 ### yarn upgrade
 ### Or install latest webpack and yarn upgrade
+
+## 4. Laravel Passport Key path oauth-public.key does not exist or is not readable on heroku
+I found a solution running with heroku cli `heroku ps:exec` then running command `php artisan passport:keys`
