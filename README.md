@@ -15,4 +15,4 @@ Curated lists of all my issues/problems encountered in linux and their solutions
 I found a solution running with heroku cli `heroku ps:exec` then running command `php artisan passport:keys`
 
 ## 5. OJET command not found after installation
-export PATH=$PATH:~/.npm-global/bin
+`export PATH=$PATH:~/.npm-global/bin`
