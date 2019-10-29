@@ -16,3 +16,6 @@ I found a solution running with heroku cli `heroku ps:exec` then running command
 
 ## 5. OJET command not found after installation
 `export PATH=$PATH:~/.npm-global/bin`
+
+## phpmyadmin Directory not found problem
+`sudo apt-get purge mysql* && sudo apt-get install mysql-server`
